@@ -46,7 +46,7 @@ class Order(db.Model):
     date = db.Column(db.DateTime, nullable=False)
     items = db.relationship('OrderItem', backref='order', lazy=True)
 # for every OrderItem object will created an Order also will created due to the relationShip between them in the database
-#CartItem model 
+#CartItem model ....
 class CartItem(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     student_id = db.Column(db.String(50), db.ForeignKey('student.id'), nullable=False)
