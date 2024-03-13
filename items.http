@@ -1,0 +1,8 @@
+POST http://127.0.0.1:5000/add_to_cart
+Content-Type: application/json
+
+{
+  "student_id": "2",
+  "book_id": 2,
+  "quantity": 6
+}
