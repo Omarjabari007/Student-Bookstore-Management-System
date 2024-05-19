@@ -1,0 +1,1 @@
+This was my project in Python training. At first it was an Object Oriented project for the same training, but over time we took a small part from the Flask library and converted the project to a backend project and tested it on the site.
